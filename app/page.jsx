@@ -1,3 +1,4 @@
+import Feed from "@components/Feed"
 
 const Home = () => {
   return (
@@ -7,6 +8,8 @@ const Home = () => {
             <br className="max-md:hidden"/>
             <span className="orange_gradient text-center">AI-Powered Prompts</span>
         </h1>
+
+        <Feed/>
     </section>
   )
 }
