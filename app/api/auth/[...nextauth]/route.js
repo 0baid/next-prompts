@@ -36,7 +36,6 @@ const handler = NextAuth({
             image: profile.picture
           })
         }
-
         return true
       } catch (error) {
         console.log(error)
@@ -45,7 +44,6 @@ const handler = NextAuth({
 
     },
   },
-
 });
 
 export { handler as GET, handler as POST };
